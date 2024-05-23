@@ -1,0 +1,66 @@
+<div class="container">
+    <form [formGroup]="formGroup1" (ngSubmit)="submitForm1()">
+        <div>
+            <label for="plateId">Select plate: </label>
+            <select formControlName="plateId" required id="plateId" (change)="updateSelectedPlate($event)">
+                <option *ngFor="let plate of plates" [ngValue]="plate.id">{{plate.id}}</option>
+            </select>
+        </div>
+        <div>
+            <input type="number" formControlName="price" required id="price" min="1" placeholder="Price">
+        </div>
+        <div>
+            <input type="number" formControlName="quantity" required id="quantity" min="1" placeholder="Quantity">
+        </div>
+        <div>
+            <input type="submit" value="Place item">
+        </div>
+    </form>
+    <div>
+        <div *ngIf="selectedPlate !== null">
+            Started: {{selectedPlate.started.replace("T", " ")}}
+        </div>
+        <div *ngIf="selectedPlate !== null">
+            Finished: {{selectedPlate.finished.replace("T", " ")}}
+        </div>
+    </div>
+</div>
+<div class="container second-container">
+    <form [formGroup]="formGroup2" (ngSubmit)="submitForm2()">
+        <div>
+            <input type="text" formControlName="buyer" required placeholder="Buyer">
+        </div>
+        <div>
+            <div><label for="buydate">Purchase date: </label></div>
+            <input type="date" formControlName="buydate" required id="buydate">
+        </div>
+        <div>
+            <div><label for="paydate">Payment date: </label></div>
+            <input type="date" formControlName="paydate" required id="paydate">
+        </div>
+        <div>
+            <input type="text" formControlName="address" required placeholder="Address">
+        </div>
+        <div>
+            <input type="submit" value="Submit order">
+        </div>
+    </form>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Plate ID</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let plate of platesOnOrder">
+                    <td>{{plate.plateId}}</td>
+                    <td>{{plate.price}}</td>
+                    <td>{{plate.quantity}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

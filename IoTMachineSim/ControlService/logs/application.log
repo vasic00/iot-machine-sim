@@ -1,0 +1,125 @@
+2024-05-12 17:21:58.806 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.unibl.etf.control.ControlServiceApplicationTests]: ControlServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-12 17:21:58.933 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.unibl.etf.control.ControlServiceApplication for test class org.unibl.etf.control.ControlServiceApplicationTests
+2024-05-12 17:21:59.543 [main] INFO  o.u.e.c.ControlServiceApplicationTests - Starting ControlServiceApplicationTests using Java 17.0.2 with PID 11316 (started by LENOVO in C:\WSWS\ControlService)
+2024-05-12 17:21:59.544 [main] INFO  o.u.e.c.ControlServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-05-12 17:22:00.439 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-12 17:22:00.529 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.
+2024-05-12 17:22:01.069 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-12 17:22:01.691 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28b523a
+2024-05-12 17:22:01.694 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-12 17:22:01.749 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-12 17:22:01.859 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-12 17:22:01.915 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-12 17:22:02.289 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-12 17:22:03.519 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-12 17:22:03.786 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-12 17:22:05.010 [main] INFO  o.u.e.c.s.i.MachineServiceImpl - Subscribed to topic machine_status
+2024-05-12 17:22:05.466 [main] INFO  o.u.e.c.s.i.PlateServiceImpl - Subscribed to topic plate_status
+2024-05-12 17:22:06.034 [main] INFO  o.u.e.c.ControlServiceApplicationTests - Started ControlServiceApplicationTests in 6.806 seconds (process running for 8.209)
+2024-05-12 17:22:06.729 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-12 17:22:06.731 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-12 17:22:06.745 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-12 15:23:22.732 [main] INFO  o.u.e.c.ControlServiceApplication - Starting ControlServiceApplication v0.0.1-SNAPSHOT using Java 18.0.2.1 with PID 1 (/ControlService-0.0.1-SNAPSHOT.jar started by root in /)
+2024-05-12 15:23:22.742 [main] INFO  o.u.e.c.ControlServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-12 15:23:23.671 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-12 15:23:23.734 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2024-05-12 15:23:24.532 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-05-12 15:23:24.544 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-05-12 15:23:24.547 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-12 15:23:24.548 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-12 15:23:24.586 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-12 15:23:24.588 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1692 ms
+2024-05-12 15:23:24.748 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-12 15:23:25.299 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f15e689
+2024-05-12 15:23:25.301 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-12 15:23:25.338 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-12 15:23:25.388 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-12 15:23:25.425 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-12 15:23:25.728 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-12 15:23:26.790 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-12 15:23:27.112 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-12 15:23:28.332 [main] INFO  o.u.e.c.s.i.MachineServiceImpl - Subscribed to topic machine_status
+2024-05-12 15:23:28.820 [main] INFO  o.u.e.c.s.i.PlateServiceImpl - Subscribed to topic plate_status
+2024-05-12 15:23:29.223 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-05-12 15:23:29.276 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2024-05-12 15:23:29.349 [main] INFO  o.u.e.c.ControlServiceApplication - Started ControlServiceApplication in 7.024 seconds (process running for 8.096)
+2024-05-12 15:24:40.201 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-12 15:24:40.205 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-12 15:24:40.232 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-12 16:47:01.165 [main] INFO  o.u.e.c.ControlServiceApplication - Starting ControlServiceApplication v0.0.1-SNAPSHOT using Java 18.0.2.1 with PID 1 (/ControlService-0.0.1-SNAPSHOT.jar started by root in /)
+2024-05-12 16:47:01.183 [main] INFO  o.u.e.c.ControlServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-12 16:47:03.503 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-12 16:47:03.751 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 204 ms. Found 2 JPA repository interfaces.
+2024-05-12 16:47:05.217 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-05-12 16:47:05.235 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-05-12 16:47:05.239 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-12 16:47:05.239 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-12 16:47:05.301 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-12 16:47:05.304 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3901 ms
+2024-05-12 16:47:05.516 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-12 16:47:06.080 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38883a31
+2024-05-12 16:47:06.083 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-12 16:47:06.146 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-12 16:47:06.283 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-12 16:47:06.350 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-12 16:47:07.072 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-12 16:47:08.970 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-12 16:47:09.385 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-12 16:47:10.564 [main] INFO  o.u.e.c.s.i.MachineServiceImpl - Subscribed to topic machine_status
+2024-05-12 16:47:11.019 [main] INFO  o.u.e.c.s.i.PlateServiceImpl - Subscribed to topic plate_status
+2024-05-12 16:47:11.438 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-05-12 16:47:11.463 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2024-05-12 16:47:11.478 [main] INFO  o.u.e.c.ControlServiceApplication - Started ControlServiceApplication in 11.189 seconds (process running for 12.663)
+2024-05-12 16:47:14.442 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-12 16:47:14.442 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-12 16:47:14.444 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-12 16:47:14.510 [http-nio-8081-exec-1] INFO  o.u.e.c.s.i.MachineServiceImpl - Request for all machines' status timestamps
+2024-05-12 16:47:18.944 [http-nio-8081-exec-2] INFO  o.u.e.c.s.i.MachineServiceImpl - Request for all machines' status timestamps
+2024-05-12 16:48:46.893 [http-nio-8081-exec-4] INFO  o.u.e.c.s.i.MachineServiceImpl - Request for all machines' status timestamps
+2024-05-12 16:48:48.215 [http-nio-8081-exec-5] INFO  o.u.e.c.s.i.MachineServiceImpl - Request for all machines' status timestamps
+2024-05-12 16:51:02.544 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - The following message arrived at topic machine_status: {"id":0,"machineId":1,"status":"start","datetime":"2024-05-12T18:51:02"}
+2024-05-12 16:51:02.641 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - Saved: {"id":0,"machineId":1,"status":"start","datetime":"2024-05-12T18:51:02"}
+2024-05-12 16:51:03.802 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - The following message arrived at topic machine_status: {"id":0,"machineId":2,"status":"start","datetime":"2024-05-12T18:51:03"}
+2024-05-12 16:51:03.829 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - Saved: {"id":0,"machineId":2,"status":"start","datetime":"2024-05-12T18:51:03"}
+2024-05-12 16:51:05.165 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - The following message arrived at topic machine_status: {"id":0,"machineId":3,"status":"start","datetime":"2024-05-12T18:51:04"}
+2024-05-12 16:51:05.183 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - Saved: {"id":0,"machineId":3,"status":"start","datetime":"2024-05-12T18:51:04"}
+2024-05-12 16:51:17.170 [MQTT Call: ae60e61b-a065-4c48-a3ee-1ad850e0b2dc] INFO  o.u.e.c.s.i.PlateServiceImpl - The following message arrived at topic plate_status: {"id":0,"finished":"2024-05-12T18:51:17","plateId":1,"started":"2024-05-12T18:51:04"}
+2024-05-12 16:51:17.189 [MQTT Call: ae60e61b-a065-4c48-a3ee-1ad850e0b2dc] INFO  o.u.e.c.s.i.PlateServiceImpl - Saved: {"id":0,"finished":"2024-05-12T18:51:17","plateId":1,"started":"2024-05-12T18:51:04"}
+2024-05-12 16:51:21.283 [MQTT Call: ae60e61b-a065-4c48-a3ee-1ad850e0b2dc] INFO  o.u.e.c.s.i.PlateServiceImpl - The following message arrived at topic plate_status: {"id":0,"finished":"2024-05-12T18:51:21","plateId":2,"started":"2024-05-12T18:51:08"}
+2024-05-12 16:51:21.299 [MQTT Call: ae60e61b-a065-4c48-a3ee-1ad850e0b2dc] INFO  o.u.e.c.s.i.PlateServiceImpl - Saved: {"id":0,"finished":"2024-05-12T18:51:21","plateId":2,"started":"2024-05-12T18:51:08"}
+2024-05-12 16:51:23.315 [http-nio-8081-exec-8] INFO  o.u.e.c.s.i.MachineServiceImpl - Request for all machines' status timestamps
+2024-05-12 16:51:25.478 [MQTT Call: ae60e61b-a065-4c48-a3ee-1ad850e0b2dc] INFO  o.u.e.c.s.i.PlateServiceImpl - The following message arrived at topic plate_status: {"id":0,"finished":"2024-05-12T18:51:25","plateId":3,"started":"2024-05-12T18:51:12"}
+2024-05-12 16:51:25.496 [MQTT Call: ae60e61b-a065-4c48-a3ee-1ad850e0b2dc] INFO  o.u.e.c.s.i.PlateServiceImpl - Saved: {"id":0,"finished":"2024-05-12T18:51:25","plateId":3,"started":"2024-05-12T18:51:12"}
+2024-05-12 16:51:25.544 [http-nio-8081-exec-10] INFO  o.u.e.c.s.i.MachineServiceImpl - Requested command PAUSE for machine with id 1
+2024-05-12 16:51:25.583 [http-nio-8081-exec-10] INFO  o.u.e.c.s.i.MachineServiceImpl - Message PAUSE published at topic control_first
+2024-05-12 16:51:25.613 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - The following message arrived at topic machine_status: {"id":0,"machineId":1,"status":"pause","datetime":"2024-05-12T18:51:25"}
+2024-05-12 16:51:25.627 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - Saved: {"id":0,"machineId":1,"status":"pause","datetime":"2024-05-12T18:51:25"}
+2024-05-12 16:51:29.545 [MQTT Call: ae60e61b-a065-4c48-a3ee-1ad850e0b2dc] INFO  o.u.e.c.s.i.PlateServiceImpl - The following message arrived at topic plate_status: {"id":0,"finished":"2024-05-12T18:51:29","plateId":4,"started":"2024-05-12T18:51:16"}
+2024-05-12 16:51:29.560 [MQTT Call: ae60e61b-a065-4c48-a3ee-1ad850e0b2dc] INFO  o.u.e.c.s.i.PlateServiceImpl - Saved: {"id":0,"finished":"2024-05-12T18:51:29","plateId":4,"started":"2024-05-12T18:51:16"}
+2024-05-12 16:51:30.698 [http-nio-8081-exec-2] INFO  o.u.e.c.s.i.MachineServiceImpl - Requested command STOP for machine with id 2
+2024-05-12 16:51:30.752 [http-nio-8081-exec-2] INFO  o.u.e.c.s.i.MachineServiceImpl - Message STOP published at topic control_second
+2024-05-12 16:51:30.788 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - The following message arrived at topic machine_status: {"id":0,"machineId":2,"status":"shutdown","datetime":"2024-05-12T18:51:30"}
+2024-05-12 16:51:30.801 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - Saved: {"id":0,"machineId":2,"status":"shutdown","datetime":"2024-05-12T18:51:30"}
+2024-05-12 16:51:33.616 [MQTT Call: ae60e61b-a065-4c48-a3ee-1ad850e0b2dc] INFO  o.u.e.c.s.i.PlateServiceImpl - The following message arrived at topic plate_status: {"id":0,"finished":"2024-05-12T18:51:33","plateId":5,"started":"2024-05-12T18:51:20"}
+2024-05-12 16:51:33.632 [MQTT Call: ae60e61b-a065-4c48-a3ee-1ad850e0b2dc] INFO  o.u.e.c.s.i.PlateServiceImpl - Saved: {"id":0,"finished":"2024-05-12T18:51:33","plateId":5,"started":"2024-05-12T18:51:20"}
+2024-05-12 16:51:37.679 [MQTT Call: ae60e61b-a065-4c48-a3ee-1ad850e0b2dc] INFO  o.u.e.c.s.i.PlateServiceImpl - The following message arrived at topic plate_status: {"id":0,"finished":"2024-05-12T18:51:37","plateId":6,"started":"2024-05-12T18:51:24"}
+2024-05-12 16:51:37.695 [MQTT Call: ae60e61b-a065-4c48-a3ee-1ad850e0b2dc] INFO  o.u.e.c.s.i.PlateServiceImpl - Saved: {"id":0,"finished":"2024-05-12T18:51:37","plateId":6,"started":"2024-05-12T18:51:24"}
+2024-05-12 16:51:53.688 [http-nio-8081-exec-4] INFO  o.u.e.c.s.i.MachineServiceImpl - Requested command CONT for machine with id 1
+2024-05-12 16:51:53.730 [http-nio-8081-exec-4] INFO  o.u.e.c.s.i.MachineServiceImpl - Message CONT published at topic control_first
+2024-05-12 16:51:53.761 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - The following message arrived at topic machine_status: {"id":0,"machineId":1,"status":"resume","datetime":"2024-05-12T18:51:53"}
+2024-05-12 16:51:53.775 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - Saved: {"id":0,"machineId":1,"status":"resume","datetime":"2024-05-12T18:51:53"}
+2024-05-12 16:52:00.468 [http-nio-8081-exec-6] INFO  o.u.e.c.s.i.MachineServiceImpl - Requested command STOP for machine with id 1
+2024-05-12 16:52:00.517 [http-nio-8081-exec-6] INFO  o.u.e.c.s.i.MachineServiceImpl - Message STOP published at topic control_first
+2024-05-12 16:52:00.552 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - The following message arrived at topic machine_status: {"id":0,"machineId":1,"status":"shutdown","datetime":"2024-05-12T18:52:00"}
+2024-05-12 16:52:00.566 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - Saved: {"id":0,"machineId":1,"status":"shutdown","datetime":"2024-05-12T18:52:00"}
+2024-05-12 16:52:01.584 [http-nio-8081-exec-8] INFO  o.u.e.c.s.i.MachineServiceImpl - Requested command STOP for machine with id 3
+2024-05-12 16:52:01.620 [http-nio-8081-exec-8] INFO  o.u.e.c.s.i.MachineServiceImpl - Message STOP published at topic control_third
+2024-05-12 16:52:01.661 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - The following message arrived at topic machine_status: {"id":0,"machineId":3,"status":"shutdown","datetime":"2024-05-12T18:52:01"}
+2024-05-12 16:52:01.673 [MQTT Call: 51b935ad-5f12-4da3-8487-4b527dd13f51] INFO  o.u.e.c.s.i.MachineServiceImpl - Saved: {"id":0,"machineId":3,"status":"shutdown","datetime":"2024-05-12T18:52:01"}
+2024-05-12 16:52:08.575 [http-nio-8081-exec-9] INFO  o.u.e.c.s.i.MachineServiceImpl - Request for all machines' status timestamps
+2024-05-12 16:52:18.892 [http-nio-8081-exec-10] INFO  o.u.e.c.s.i.MachineServiceImpl - Request for all machines' status timestamps
+2024-05-12 16:52:20.364 [http-nio-8081-exec-1] INFO  o.u.e.c.s.i.MachineServiceImpl - Request for all machines' status timestamps
+2024-05-12 16:52:23.917 [http-nio-8081-exec-2] INFO  o.u.e.c.s.i.MachineServiceImpl - Request for all machines' status timestamps
+2024-05-12 16:52:56.632 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-12 16:52:56.637 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-12 16:52:56.664 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,11 @@
+org\unibl\etf\data\MachineResume.class
+org\unibl\etf\data\MachineShutdown.class
+org\unibl\etf\data\MachinePause.class
+org\unibl\etf\machines\Main$4.class
+org\unibl\etf\data\MachineStart.class
+org\unibl\etf\machines\Main$2.class
+org\unibl\etf\machines\Main$3.class
+org\unibl\etf\data\PlateProcessed.class
+org\unibl\etf\machines\Main$5.class
+org\unibl\etf\machines\Main$1.class
+org\unibl\etf\machines\Main.class

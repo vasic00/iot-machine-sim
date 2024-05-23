@@ -1,0 +1,10 @@
+<div class="nav">
+    <button #machinesButton class="selected"
+        (click)="showComponent(true, machinesButton, productsButton)">Machines</button>
+    <button #productsButton class="not-selected"
+        (click)="showComponent(false, machinesButton, productsButton)">Products</button>
+</div>
+<div>
+    <app-machines *ngIf="showMachines"></app-machines>
+    <app-products *ngIf="!showMachines"></app-products>
+</div>

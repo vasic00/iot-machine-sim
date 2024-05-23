@@ -1,0 +1,2 @@
+docker build --tag=product-service:latest .
+docker run --name product-service -v C:/WSWS/ProductService/logs:/logs -p 8082:8082 product-service:latest

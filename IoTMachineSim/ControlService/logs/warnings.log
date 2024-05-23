@@ -1,0 +1,7 @@
+2024-05-12 15:24:40.198 [SpringApplicationShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'mqttPlateSubscriber': Client is connected (32100)
+2024-05-12 15:24:40.200 [SpringApplicationShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'mqttControlPublisher': Client is connected (32100)
+2024-05-12 15:24:40.200 [SpringApplicationShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'mqttMachineSubscriber': Client is connected (32100)
+2024-05-12 16:47:11.034 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-12 16:52:56.631 [SpringApplicationShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'mqttPlateSubscriber': Client is connected (32100)
+2024-05-12 16:52:56.631 [SpringApplicationShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'mqttControlPublisher': Client is connected (32100)
+2024-05-12 16:52:56.632 [SpringApplicationShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'mqttMachineSubscriber': Client is connected (32100)

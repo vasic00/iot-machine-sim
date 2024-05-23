@@ -1,0 +1,13 @@
+Napraviti jednostavnu simulaciju rada fabrike za izradu specijalnih metalnih ploča. Izrada jedne ploče sastoji se iz 3 faze, a svaku fazu obavlja određena mašina: mašina za oblikovanje (M1), mašina za ravnanje (M2) i mašina za lakiranje (M3).
+
+Rad svake mašine se simulira jednostavnim Java programom, a svaka mašina ima svoj jedinstveni ID i metodu u kojoj se simulira obrada tako što se na konzolu ispisuju poruke. Svaka ploča koja se koristi u obradi ima svoj ID i mora pratiti uvijek isti redoslijed obrade (M1 -> M2 -> M3). Tokom obrade pomoću sleep metode usporiti rad mašina kako bi se lakše ispratila simulacija. Mašine dobijaju ploče i šalju ih dalje preko brokera i MQTT. Treća mašina (M3) pravi konačan proizvod i to javlja mikroservisu za proizvode preko REST endpointa.
+
+Sve mašine su povezane na kontrolni mikroservis koji može mašinama da pošalje 3 komande:  STOP - prekid rada, PAUSE - pauza i CONT - prekid pauze. Kontrolni mikroservis upisuje u bazu podataka telemetrijske podatke koje dobija od mašina: vrijeme pokretanja, vrijeme početka obrade materijala sa ID-jem, vrijeme završetka obrade materijala sa ID-jem, vrijeme gašenja mašine, vrijeme pauze i vrijeme prekida pauze. Sva komunikacija se obavlja preko MQTT brokera.
+
+Mikroservis za proizvode čuva u bazi podataka informacije o svim kreiranim pločama, i ovi podaci su dostupni preko REST endpointa za pretrage (findAll, findByID).
+
+Mikroservis za prodaju služi da se od postojećih ploča iz mikroservisa za proizvode kreira narudžbenica za prodaju. Narudžbenica se sastoji od zaglavlja (kupac, datum prodaje, datum plaćanja (valuta), adresa isporuke) i stavki (ID ploče, cijena i količina). Narudžbenica se čuva kao txt fajl. Mikroservis za prodaju komunicira preko RabbitMQ.
+
+Napraviti jednostavnu klijentsku aplikaciju (desktop GUI ili web) u kojoj se mogu kreirati narudžbenice.  Svi podaci se dobijaju od odgovarajućih mikroservisa, a podaci koji se tamo ne čuvaju unose se u ovoj klijentskoj aplikacija (cijene, količine, adrese, ...). U sklopu iste ili odvojene aplikacije napraviti kontrolni panel za upravljanje mašinama koji koristi kontrolni mikroservis. Ispisati status rada mašine preko ikonica (zeleno - radi, žuto - pauza, crveno - isključena).
+
+U svim aplikacijama obezbijediti logovanje događaja (logger-i), a parametre čuvati u properties fajlovima.

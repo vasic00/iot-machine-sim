@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.selected {
+    background-color: whitesmoke;
+    color: rgb(84, 84, 185);
+}
+
+.not-selected {
+    background-color: rgb(84, 84, 185);
+    color: whitesmoke;
+}
+
+button {
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}

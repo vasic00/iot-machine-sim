@@ -1,0 +1,34 @@
+<div class="m-container">
+    <div [style.backgroundColor]="m1Color" class="card" [class.selected]="machineSelected==='m1'"
+        (click)="changeSelection('m1')">M1</div>
+    <div [style.backgroundColor]="m2Color" class="card" [class.selected]="machineSelected==='m2'"
+        (click)="changeSelection('m2')">M2</div>
+    <div [style.backgroundColor]="m3Color" class="card" [class.selected]="machineSelected==='m3'"
+        (click)="changeSelection('m3')">M3</div>
+</div>
+<div class="action-container">
+    <button (click)="doAction('PAUSE')">PAUSE</button>
+    <button (click)="doAction('CONT')">CONT</button>
+    <button (click)="doAction('STOP')">STOP</button>
+</div>
+<div>
+    <button (click)="refreshTable()">Refresh</button>
+</div>
+<div class="action-logs">
+    <table>
+        <thead>
+            <tr>
+                <th (click)="sortByMachineId()">Machine ID</th>
+                <th>Action</th>
+                <th (click)="sortByDate()">Datetime</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let action of actionLogs">
+                <td>{{action.machineId}}</td>
+                <td>{{action.status}}</td>
+                <td>{{action.datetime.replace("T", " ")}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

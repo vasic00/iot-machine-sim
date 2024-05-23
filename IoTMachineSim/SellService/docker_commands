@@ -1,0 +1,2 @@
+docker build --tag=sell-service:latest .
+docker run --name sell-service -v C:/WSWS/SellService/orders:/orders -p 8083:8083 sell-service:latest
